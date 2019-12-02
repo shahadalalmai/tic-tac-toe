@@ -13,6 +13,7 @@ body {
 h1{
     /* color: #F85056; */
     font-size: 60px;
+    margin: 15%;
 
 }
 
@@ -22,7 +23,7 @@ h2{
 
 main{
     position: absolute;
-    top: 30%;
+    top: 20%;
 }
 
 button{
@@ -79,9 +80,9 @@ align-items: center;
     border-left: 10px solid #23343D;
 }
 
-.winner{
+/* .winner{
     color: #F85056;
-}
+} */
 
     
 footer{
@@ -93,30 +94,26 @@ footer{
 
 
 
-@media (max-width: 320px) { 
+@media (max-width: 414px) { 
+
     body{
     width: 100%;
 }
 
-/* .game-board{
+.game-board{
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center; 
-    width: 200%;
-    height: 200%;
+    /* width: 640px;
+    height: 700px; */
+    width: 100%;
+    height: 100%px;
+    /* border: 1px solid royalblue; */
   }
-  
-  .square{
-  width: 100%;
-  height: 100%;
-  padding: 0%;
-  margin: 0%;
-  align-content: center;
-  align-items: center;
-  
-  } */
+
+
 
 
 }
