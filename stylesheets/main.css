@@ -17,13 +17,11 @@ h1{
 
 }
 
-h2{
-    /* color: #F85056; */
-}
 
 main{
     position: absolute;
     top: 20%;
+    
 }
 
 button{
@@ -38,10 +36,12 @@ button{
     color: white;
 }
 
+
 button:hover{
     color: #162B35;
     border-color: #162B35;
     background: #F85056;
+    /* cursor: pointer; */
 }
 
 .game-board{
@@ -56,7 +56,6 @@ button:hover{
 }
 
 .square{
-/* float: left; */
 width: 100px;
 height: 110px;
 padding: 0%;
@@ -80,14 +79,10 @@ align-items: center;
     border-left: 10px solid #23343D;
 }
 
-/* .winner{
-    color: #F85056;
-} */
-
-    
 footer{
     position: fixed;
     bottom: 0;
+    cursor: pointer;
 }
 
 
@@ -98,7 +93,12 @@ footer{
 
     body{
     width: 100%;
+    height: 100%;
 }
+
+    main{
+        left: 0px ;
+    }
 
 .game-board{
     display: flex;
@@ -108,12 +108,60 @@ footer{
     text-align: center; 
     /* width: 640px;
     height: 700px; */
-    width: 100%;
+    width: 98%;
+    /* padding: 322px 350px; */
     height: 100%px;
     /* border: 1px solid royalblue; */
   }
 
+  h1{
+    /* color: #F85056; */
+    font-size: 40px;
+    margin-top: 30%;
 
+}
+
+
+
+#s0, #s1, #s2, #s3, #s4, #s5{
+    border-bottom: 3px solid #23343D;
+    
+}
+
+#s1, #s2, #s4, #s5, #s7, #s8{
+    border-left: 3px solid #23343D;
+}
+
+
+.square{
+    width: 100px;
+    height: 115px;
+    padding: 0%;
+    margin: 0%;
+    align-content: center;
+    align-items: center;
+    
+    }
+
+
+    footer{
+        position: fixed;
+        bottom: 0px;
+    }
+
+
+    p{
+        padding-top: 20px;
+        margin: 16px;
+    }
+
+    button{
+        margin-top: 60px;
+    }
+
+    #again{
+        margin-top: 30px;   
+    }
 
 
 }
