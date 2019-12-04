@@ -11,17 +11,14 @@ body {
 }
 
 h1{
-    /* color: #F85056; */
     font-size: 60px;
     margin: 15%;
-
 }
 
 
 main{
     position: absolute;
     top: 20%;
-    
 }
 
 button{
@@ -41,7 +38,6 @@ button:hover{
     color: #162B35;
     border-color: #162B35;
     background: #F85056;
-    /* cursor: pointer; */
 }
 
 .game-board{
@@ -52,7 +48,6 @@ button:hover{
   text-align: center; 
   width: 320px;
   height: 350px;
-  /* border: 1px solid royalblue; */
 }
 
 .square{
@@ -72,7 +67,6 @@ align-items: center;
 
 #s0, #s1, #s2, #s3, #s4, #s5{
     border-bottom: 10px solid #23343D;
-    /* border-bottom: 10px solid #23343D; */
 }
 
 #s1, #s2, #s4, #s5, #s7, #s8{
@@ -106,19 +100,13 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center; 
-    /* width: 640px;
-    height: 700px; */
     width: 98%;
-    /* padding: 322px 350px; */
-    height: 100%px;
-    /* border: 1px solid royalblue; */
+    height: 100%;
   }
 
   h1{
-    /* color: #F85056; */
     font-size: 40px;
     margin-top: 30%;
-
 }
 
 
@@ -164,4 +152,36 @@ footer{
     }
 
 
+}
+
+
+
+@media (max-width: 768px) and (min-width: 415px){
+
+    .game-board{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center; 
+        width: 100%;
+        height: 100%;
+      }  
+
+
+      .square{
+        width: 187px;
+        height: 170px;
+        padding: 0%;
+        margin: 0%;
+        align-content: center;
+        align-items: center;
+        
+        }
+
+
+        h1{
+            font-size: 70px;
+            margin-top: 25%;
+        }
 }
