@@ -94,7 +94,7 @@ $(function () { // when the document is ready, plz do the following 3la 6ol
         }
 
         function endGame() {
-            $('audio#again')[0].play()
+            $('audio#tie')[0].play()
             $('#turn').html("Tie, none of you have won &#9785")
             $('#turn').css('color', '#F85056')
             $('#again').show(800)
