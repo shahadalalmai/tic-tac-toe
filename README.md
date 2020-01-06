@@ -2,6 +2,9 @@
 A bored game for two players.
 The player who succeeds in placing thier X or O in horizontal, vertical or diagonal line is the WINNER.
 
+[Click Here to PLAY](https://shahadalalmai.github.io/tic-tac-toe/)
+
+
 ## My Project Deployment
 
 ## Technologies used in the project
